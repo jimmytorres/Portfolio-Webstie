@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: typewriter;
+    src: url("Quango.otf") format('opentype'),
+    url("type.woff") format('woff'),
+    url("type.woff2") format('woff2');
+}
+
+
+
+/* HTML Styles */
+html{
+    background-color: white;
+    height: 100%;
+}
+
+/* Body Styles */
+
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 95%;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: typewriter, sans-serif;
+}
+
+body{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+/* Nav Rght Styles */
+
+nav a{
+    text-decoration: none;
+}
+nav.right ul li{
+    list-style-type: none;
+    display: block;
+   
+}
+nav.right ul li a{
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    line-height: 75px;
+    color: black;
+    text-align: right;
+    padding-right: 30px;
+}
+nav.right{
+    top: 30px;
+    right: 30px;
+    position: fixed;
+}
+
+/* Figure Styles */
+
+figure#home {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+footer{
+    padding-bottom: 15px;
+}
+
+/* Figure Skill Styles */
+
