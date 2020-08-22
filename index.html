@@ -7,18 +7,20 @@
     <title>Jimmy's World</title>
     <link rel="icon" type="image" href="Logo.png"/>
     <link href="jw_styles.css" rel="stylesheet" />
-    <script src="jw_works.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jw_works.js" ></script>
 </head>
 <body>
+    <!--nav bar for the site-->
     <nav class="right">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skill</a></li>
-            <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    <!-- Logo that appears at the top-->
     <figure id="home">
         <img src="Logo.png" alt="logo" />
     </figure>
@@ -26,27 +28,73 @@
     <h2>Front-End Developer & Web Developer</h2>
     
     <section id="about">
-        My name is Jimmy Torres and I love to design and code a variety of different websites.<br>
-        I'm experienced in only HTML and CSS.
-    </section>
-    <section id="skill">
-        <figure id="scale1">
-            <img src="scale_1.png" alt="scale"/>
-        </figure>
-       <figure id="scale2">
-            <img src="scale_2.png" alt="scale" />
-            <figcaption>Experience in HTML</figcaption>
-        </figure>
+    <!--Details about me-->
+        <h2 id="tiWork"><p id="detail">My name is Jimmy Torres and I love to design and code a variety of different websites.<br>
+        I'm experienced in only HTML, CSS, and JavaScript. Throughout my time with these three languages; <br>
+        I have completed three projects that showcase my ability to use these three languages.</p> </h2>
+</section>
         
-    </section>
-    <section id="work">
-        <h2>Here are some of the things I've worked on:</h2>
-    </section>
-    <section id="contact">
-        <h2>Contact me here using the folowing:</h2>
-    </section>
-    <footer>
-        myspace, kik, el face, el whatsapp
+<!--Contains photos & links to my work-->
+<div class="row">
+    <div class="column">
+        <h2>My Previous Work:</h2>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <a href="https://github.com/KevinObed-Ramirez/Unit_3_Group_Project.git"><img src="sportRun.png"" width="100%"></a>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <a href="https://github.com/KevinObed-Ramirez/Super-Mario-Project-.git"><img src="mario.jpg" height="173px" width="100%"></a>
+        </div>
+    </div>
+</div>
+
+
+<section id="skill">       
+<!--Contains my skill bars-->
+<div class="content" id="page-content">
+<div class="skill-thumb skill">
+
+<div class="progress fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+    <div class="title">Html</div>
+    <div class="progress-bar fadeInLeft animated" data-progress="95%" 
+        style="width: 80%; visibility: visible; animation-duration: 5s; animation-delay: 1s; animation-name: fadeInLeft;">
+        <p class=" fadeInLeft animated" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInLeft;">80%</p>
+    </div>
+</div>
+
+
+<div class="progress">
+    <div class="title">css</div>
+    <div class="progress fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="progress-bar fadeInLeft animated" data-progress="95%" 
+                style="width: 90%; visibility: visible; animation-duration: 5s; animation-delay:  1s; animation-name: fadeInLeft;">
+        <p class=" fadeInLeft animated" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInLeft;">90%</p>
+    </div>
+</div>
+
+<div class="progress">
+    <div class="title">JavaScript</div>
+    <div class="progress fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="progress-bar fadeInLeft animated" data-progress="95%" 
+                style="width: 30%; visibility: visible; animation-duration: 5s; animation-delay: 1s; animation-name: fadeInLeft;">
+        <p class=" fadeInLeft animated" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInLeft;">30%</p>
+    </div>
+</div>
+
+</div>
+
+</div>
+<br>
+</section>
+<!--contact info-->
+    <footer id="contact">
+        <a href="https://www.linkedin.com/in/jimmy-torres-3224621b5/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/jimmytorrez.z/" class="fa fa-instagram"></a>
+
     </footer>
 </body>
 </html>
